@@ -1,0 +1,33 @@
+.selector
+	height: 100px
+	width: 100%
+	font-family: Montserrat
+	font-style: normal
+	background-color: $main-color
+	align-items: center
+	padding: 37px 0
+	&__menu
+		display: flex
+		justify-content: space-between
+		list-style-type: none
+		color: #fff
+        font-weight: 500
+        font-size: 15px
+        line-height: 30px
+	&__item
+		background: $main-color
+		border: none
+		border-right: 2px ridge white
+		padding-right: 80px
+		cursor: pointer
+		&:first-child
+			padding-left: 70px
+			border-left: 2px ridge white
+		&:hover
+			font-weight: 600
+		&_active
+			font-weight: 600
+	&__content
+		display: none
+		&_active
+			display: flex

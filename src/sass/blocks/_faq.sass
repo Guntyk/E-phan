@@ -1,0 +1,59 @@
+.faq
+    height: 721px
+    background: $second-color
+    font-family: Montserrat
+    font-style: normal
+    &__list
+        width: 820px
+        height: 541px
+        padding-top: 80px
+        margin: 0 auto
+    &__title
+        font-weight: bold
+        font-size: 36px
+        line-height: 130%
+    &__tabs
+        margin-top: 56px
+        padding-left: 0px
+        justify-content: center
+        align-items: center
+        position: absolute
+        font-weight: 600
+        font-size: 19px
+        line-height: 150%
+        list-style-type: none
+        li
+            margin: 30px 0
+            padding: 30px 0
+    &__tab
+        width: 820px
+        height: 30px
+        border-top: 2px solid #fff
+        color: $main-color
+        font-family: Montserrat
+        font-style: normal
+        font-weight: 600
+        font-size: 19px
+        line-height: 150%
+        &:first-child
+            border: none
+            margin-top: 0px
+        &:last-child
+            border-bottom: 2px solid #fff
+            height: 60px
+        &:hover
+            cursor: pointer
+            font-size: 22px
+            color: $third-color
+            padding-left: 20px 
+            border-left: 4px solid $third-color
+            transition: 0.5s all
+        &_active
+            font-size: 22px
+            color: $third-color
+            border-left: 4px solid $third-color
+            &:hover
+                cursor: pointer
+                font-size: 22px
+                color: $third-color
+                border-left: 4px solid $third-color
